@@ -17,7 +17,7 @@ if ALLOWED_HOSTS is not None:
     ALLOWED_HOSTS = ALLOWED_HOSTS.split(',')
 else:
     ALLOWED_HOSTS = ['localhost']
-    
+
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
     'django.contrib.admin',
